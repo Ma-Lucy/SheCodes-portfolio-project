@@ -19,9 +19,9 @@ img {
 }
 .hero-image {
   background-image: url(/images/hero-image1.jpg);
-  display: block;
-  margin: 0 auto;
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 .nav-button {
   display: flex;
