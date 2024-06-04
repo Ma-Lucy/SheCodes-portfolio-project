@@ -1,3 +1,65 @@
+body {
+  font-family: cormorant garamond;
+}
 h1 {
-  color: grey;
+  margin-left: 30px;
+  font-size: 58px;
+  letter-spacing: 0.2rem;
+  padding: 250px 10px 110px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 900;
+}
+.hero-image {
+  background-image: url(/images/varshesh-joshi-qaZofx5ePm8-unsplash\ copy.jpg);
+  display: block;
+  margin: 0 auto;
+}
+.nav-button {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  border: 1px solid grey;
+  padding: 20px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin: 15px 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.portfolio-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.nav-button:hover,
+.portfolio-button-link:hover {
+  color: rgb(88, 84, 84);
+}
+
+.portfolio-button-link {
+  display: inline;
+  text-align: center;
+  margin: 20px auto;
+  text-decoration: none;
+  background-color: rgb(228, 226, 213, 0.3);
+  border: 1px solid rgb(50, 48, 48);
+  padding: 20px 20px;
+  border-radius: 4px;
+  color: rgb(14, 13, 13);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.nav-link {
+  font-size: 20px;
+  margin: 15px 15px;
+}
+.navbar-brand {
+  margin: 15px 30px;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  font-size: 24px;
 }
