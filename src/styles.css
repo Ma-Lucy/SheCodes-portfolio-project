@@ -13,10 +13,15 @@ h1 {
   text-align: center;
   font-weight: 900;
 }
+img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
 .hero-image {
-  background-image: url(/images/varshesh-joshi-qaZofx5ePm8-unsplash\ copy.jpg);
+  background-image: url(/images/hero-image1.jpg);
   display: block;
   margin: 0 auto;
+  width: 100vw;
 }
 .nav-button {
   display: flex;
@@ -69,4 +74,8 @@ h1 {
 }
 .container-fluid {
   margin-top: 10px;
+}
+.gallery {
+  background-color: rgb(255, 255, 255);
+  padding: 80px 60px;
 }
