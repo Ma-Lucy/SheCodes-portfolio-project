@@ -80,7 +80,7 @@ header {
 .navbar {
   padding-bottom: none;
 }
-@media (max-width: 980px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 40px;
     padding: 100px 10px;
@@ -94,6 +94,15 @@ header {
   a.nav-link {
     display: flex;
     justify-content: right !important;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(135deg, #d7dac7 0%, #f5f2ef 100%);
+    opacity: 0.9;
+    border-radius: 4px;
+  }
 }
 @media (max-width: 600px) {
   h1 {
@@ -112,6 +121,7 @@ header {
   a.nav-link {
     display: flex;
     justify-content: right !important;
+  }
 }
 @media (max-width: 410px) {
   .nav-brand {
