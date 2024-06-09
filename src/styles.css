@@ -4,18 +4,12 @@
 body {
   font-family: var(--heading-font);
 }
-.index-h1 {
-  font-size: 60px;
-  letter-spacing: 0.2rem;
-  padding: 250px 10px 100px;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-weight: 900;
-  text-align: center;
-}
 h2 {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
 }
 img {
   max-width: 100%;
@@ -26,8 +20,20 @@ header {
   background-size: cover;
   background-position: top;
 }
+p {
+  font-size: 20px;
+}
+.index-h1 {
+  font-size: 60px;
+  letter-spacing: 0.2rem;
+  padding: 250px 10px 100px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 900;
+  text-align: center;
+}
 .about-h1 {
-  padding: none !important;
+  padding: 20px 0 !important;
   color: black;
 }
 .nav-button {
@@ -71,7 +77,7 @@ header {
 .nav-link {
   font-size: 20px;
   font-weight: 700;
-  margin: 15px 15px;
+  margin: 15px 25px;
   color: black;
 }
 
@@ -97,10 +103,37 @@ header {
   text-align: justify;
   padding-bottom: none;
 }
-@media (max-width: 992px) {
-  h1 {
+
+.about-section {
+  padding-top: 50px;
+}
+
+.about-text {
+  padding: 20px 60px;
+}
+.about-text h1 {
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+}
+@media (max-width: 1197px) {
+  .nav-button {
+    display: none;
+  }
+  .about-text {
+    padding: 10px 40px;
+  }
+  .about-photo {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .index-h1 {
     font-size: 40px;
     padding: 100px 10px;
+  }
+  .about-h1 {
+    text-align: center;
   }
   .nav-button {
     display: none;
@@ -110,15 +143,23 @@ header {
   }
   a.nav-link {
     display: flex;
-    justify-content: right !important;
+    justify-content: right;
   }
-
   .navbar-nav {
     display: flex;
     flex-direction: row-reverse;
     background: linear-gradient(135deg, #d7dac7 0%, #f5f2ef 100%);
     opacity: 0.9;
     border-radius: 4px;
+  }
+
+  .about-text {
+    font-size: 14px;
+    padding: 25px;
+  }
+  .about-photo {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 850px) {
@@ -127,11 +168,26 @@ header {
     margin-right: 70px;
     font-size: 18px;
   }
+  .about-h1 {
+    text-align: center;
+  }
+  .about-text {
+    font-size: 14px;
+    padding: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .about-text {
+    padding: 45px;
+  }
 }
 @media (max-width: 600px) {
-  h1 {
+  .index-h1 {
     font-size: 32px;
     padding: 150px 20px 50px;
+  }
+  .about-h1 {
+    font-size: 24px;
   }
   .navbar-brand {
     font-size: 12px;
@@ -144,9 +200,15 @@ header {
   }
   a.nav-link {
     display: flex;
-    justify-content: right !important;
+    margin: 15px;
   }
-
+  .about-text {
+    font-size: 14px;
+    padding: 25px;
+  }
+  .about-section-container {
+    padding-top: 20px;
+  }
   .description-text-1 {
     font-size: 16px;
   }
@@ -154,25 +216,31 @@ header {
 @media (max-width: 410px) {
   .nav-brand {
     font-size: 10px;
+    margin: 0;
   }
   .description-text-1 {
     margin-left: 40px;
     margin-right: 40px;
   }
+  .nav-link {
+    font-size: 18px;
+    margin: 5px;
+  }
 }
 @media (max-width: 375px) {
-  h1 {
+  .navbar-nav {
+    flex-direction: column-reverse;
+  }
+  .index-h1 {
     font-size: 28px;
     padding: 40px 10px;
   }
   .navbar-brand {
-    font-size: 10px;
+    font-size: 9px;
     text-align: left;
+    margin: 0;
   }
   .nav-button {
     display: none;
-  }
-  .nav-button {
-    font-size: 15px;
   }
 }
