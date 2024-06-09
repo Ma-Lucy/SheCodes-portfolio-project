@@ -4,7 +4,7 @@
 body {
   font-family: var(--heading-font);
 }
-h1 {
+.index-h1 {
   font-size: 60px;
   letter-spacing: 0.2rem;
   padding: 250px 10px 100px;
@@ -25,6 +25,10 @@ header {
   background-image: url(/images/hero-image.jpg);
   background-size: cover;
   background-position: top;
+}
+.about-h1 {
+  padding: none !important;
+  color: black;
 }
 .nav-button {
   display: flex;
@@ -88,7 +92,7 @@ header {
 .description-text-1 {
   display: flex;
   justify-content: center;
-  margin: 50px 180px 40px;
+  margin: 50px 220px 40px;
   font-size: 20px;
   text-align: justify;
   padding-bottom: none;
