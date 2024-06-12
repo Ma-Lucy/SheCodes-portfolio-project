@@ -32,8 +32,9 @@ p {
   font-weight: 900;
   text-align: center;
 }
-.about-h1 {
-  padding: 20px 0 !important;
+.secondary-h1 {
+  letter-spacing: 0.4;
+  font-size: 30px;
   color: black;
 }
 .nav-button {
@@ -109,7 +110,7 @@ p {
 }
 
 .about-text {
-  padding: 20px 60px;
+  padding: 20px 40px;
 }
 .about-text h1 {
   font-size: 30px;
@@ -148,7 +149,7 @@ p {
   .navbar-nav {
     display: flex;
     flex-direction: row-reverse;
-    background: linear-gradient(135deg, #d7dac7 0%, #f5f2ef 100%);
+    background: rgb(233, 232, 229);
     opacity: 0.9;
     border-radius: 4px;
   }
@@ -186,7 +187,7 @@ p {
     font-size: 32px;
     padding: 150px 20px 50px;
   }
-  .about-h1 {
+  .secondary-h1 {
     font-size: 24px;
   }
   .navbar-brand {
