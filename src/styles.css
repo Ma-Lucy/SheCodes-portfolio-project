@@ -116,6 +116,37 @@ p {
   font-size: 30px;
   letter-spacing: 0.1rem;
 }
+.icon-container {
+  padding: 100px 200px;
+}
+.facebook {
+  padding-top: 10px;
+  margin-right: 19px;
+}
+.envelope {
+  margin-right: 15px;
+}
+.instagram {
+  padding-top: 10px;
+  margin-right: 19px;
+}
+.email-container {
+  display: flex;
+  justify-content: last baseline;
+  margin-bottom: 20px;
+}
+.facebook-container {
+  display: flex;
+  justify-content: last baseline;
+  margin-bottom: 20px;
+}
+.instagram-container {
+  display: flex;
+  justify-content: last baseline;
+}
+.contact-paragraph {
+  margin: 20px 80px;
+}
 
 @media (max-width: 1197px) {
   .nav-button {
