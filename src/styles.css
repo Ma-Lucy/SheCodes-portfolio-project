@@ -33,7 +33,7 @@ p {
   text-align: center;
 }
 .secondary-h1 {
-  letter-spacing: 0.4;
+  letter-spacing: 0.2rem;
   font-size: 30px;
   color: black;
 }
@@ -116,6 +116,7 @@ p {
   font-size: 30px;
   letter-spacing: 0.1rem;
 }
+
 @media (max-width: 1197px) {
   .nav-button {
     display: none;
