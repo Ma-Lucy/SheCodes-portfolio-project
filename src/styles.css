@@ -11,6 +11,9 @@ h2 {
   letter-spacing: 0.2rem;
   font-weight: 600;
 }
+h3 {
+  padding: 20px 0px;
+}
 img {
   max-width: 100%;
   margin-bottom: 15px;
@@ -110,42 +113,19 @@ p {
 }
 
 .about-text {
-  padding: 20px 40px;
+  padding: 30px 40px;
 }
 .about-text h1 {
   font-size: 30px;
   letter-spacing: 0.1rem;
 }
-.icon-container {
-  padding: 100px 200px;
+.contact-photo {
+  display: block;
+  margin: 0 auto;
 }
-.facebook {
-  padding-top: 10px;
-  margin-right: 19px;
-}
-.envelope {
-  margin-right: 15px;
-}
-.instagram {
-  padding-top: 10px;
-  margin-right: 19px;
-}
-.email-container {
-  display: flex;
-  justify-content: last baseline;
-  margin-bottom: 20px;
-}
-.facebook-container {
-  display: flex;
-  justify-content: last baseline;
-  margin-bottom: 20px;
-}
-.instagram-container {
-  display: flex;
-  justify-content: last baseline;
-}
-.contact-paragraph {
-  margin: 20px 80px;
+.contact-text {
+  text-align: center;
+  padding: 50px;
 }
 
 @media (max-width: 1197px) {
@@ -258,6 +238,9 @@ p {
   .nav-link {
     font-size: 18px;
     margin: 5px;
+  }
+  .details {
+    font-size: 12px;
   }
 }
 @media (max-width: 375px) {
