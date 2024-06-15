@@ -135,8 +135,17 @@ p {
   font-size: 32px;
   letter-spacing: 0.2rem;
 }
+.footer-box {
+  padding: 40px 180px;
+  background-color: #e5e4e8;
+  width: 100%;
+  margin-bottom: 30px;
+}
 
 @media (max-width: 1197px) {
+  footer {
+    display: none;
+  }
   .nav-button {
     display: none;
   }
