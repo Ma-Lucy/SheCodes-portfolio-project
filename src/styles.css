@@ -119,13 +119,21 @@ p {
   font-size: 30px;
   letter-spacing: 0.1rem;
 }
-.contact-photo {
-  display: block;
-  margin: 0 auto;
-}
 .contact-text {
+  background-image: url(/images/lucian-v_mTgSs6UiY-unsplash.jpg);
+  background-position: top;
+  background-size: cover;
+  padding: 100px 50px 340px 50px;
   text-align: center;
-  padding: 50px;
+  font-weight: 600;
+}
+.contact-text p {
+  font-size: 26x;
+  text-align: center;
+}
+.contact-me {
+  font-size: 32px;
+  letter-spacing: 0.2rem;
 }
 
 @media (max-width: 1197px) {
