@@ -68,7 +68,8 @@ p {
 }
 .nav-button:hover,
 .portfolio-button-link:hover {
-  color: rgb(88, 84, 84);
+  background-color: rgb(236, 224, 206, 0.7);
+  color: black;
 }
 
 .portfolio-button-link {
@@ -76,7 +77,7 @@ p {
   text-align: center;
   margin: 20px auto;
   text-decoration: none;
-  background-color: rgb(228, 226, 213, 0.6);
+  background-color: #ece0ce;
   border: 1px solid rgb(50, 48, 48);
   padding: 20px 20px;
   border-radius: 4px;
@@ -99,7 +100,7 @@ p {
   font-size: 20px;
 }
 .gallery {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   padding: 80px 60px;
 }
 .navbar {
@@ -127,7 +128,7 @@ p {
   letter-spacing: 0.1rem;
 }
 .contact-text {
-  background-image: url(/images/lucian-v_mTgSs6UiY-unsplash.jpg);
+  background-image: url(/images/jakob-owens-l2K7561Pj80-unsplash.jpg);
   background-position: top;
   background-size: cover;
   padding: 100px 50px 340px 50px;
@@ -144,20 +145,20 @@ p {
 }
 .footer-box {
   padding: 40px 180px;
-  background-color: #e5e4e8;
+  background-color: rgb(236, 224, 206, 0.7);
   width: 100%;
   margin-bottom: 30px;
 }
 .social-link {
   color: black;
   font-size: 24px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border-radius: 50%;
   padding: 10px 18px;
   transition: all 150ms ease-in-out;
 }
 .social-link:hover {
-  background-color: #e5e4e8;
+  background-color: rgb(236, 224, 206, 0.7);
   color: black;
 }
 
