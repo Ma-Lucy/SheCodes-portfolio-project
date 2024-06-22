@@ -270,6 +270,8 @@ footer small a:hover {
   }
   .description-text-1 {
     font-size: 16px;
+    margin-left: 35px;
+    margin-right: 35px;
   }
 }
 @media (max-width: 410px) {
@@ -278,8 +280,8 @@ footer small a:hover {
     margin: 0;
   }
   .description-text-1 {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
   }
   .nav-link {
     font-size: 18px;
