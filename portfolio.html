@@ -25,6 +25,7 @@
       src="https://kit.fontawesome.com/d6b3dd813a.js"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="src/styles.css" />
   </head>
 
@@ -68,30 +69,91 @@
   </nav>
   <body>
     <div class="container-fluid">
-      <h1 class="secondary-h1 p-3 text-center">PORTFOLIO</h1>
-      <div class="row">
-        <div class="col g-3">
-          <img src="images/portfolio3.jpg" alt="Young girl holding bird" />
-          <img src="images/portfolio7.jpg" alt="Monks crossing river" />
-          <img src="images/portfolio5.jpg" alt="Mountain scene" />
-          <img src="images/portfolio8.jpg" alt="Lady selling grilled fish" />
+      <div class="image-container">
+        <h1 class="secondary-h1 p-3 text-center">PORTFOLIO</h1>
+        <div class="row">
+          <div class="col g-3">
+            <img
+              id="image"
+              class="image"
+              src="images/portfolio3.jpg"
+              alt="Young girl holding bird"
+            />
+            <img
+              class="image"
+              src="images/portfolio7.jpg"
+              alt="Monks crossing river"
+            />
+            <img
+              class="image"
+              src="images/portfolio5.jpg"
+              alt="Mountain scene"
+            />
+            <img
+              class="image"
+              src="images/portfolio8.jpg"
+              alt="Lady selling grilled fish"
+            />
+          </div>
+          <div class="col g-3">
+            <img
+              class="image"
+              src="images/grid-image3.jpg"
+              alt="Ornate mosque"
+            />
+            <img
+              class="image"
+              src="images/portfolio6.jpg"
+              alt="scenic boat trip"
+            />
+            <img
+              class="image"
+              src="images/portfolio4.jpg"
+              alt="View from mountainous town"
+            />
+            <img
+              class="image"
+              src="images/portfolio12.jpg"
+              alt="Monk within temple grounds"
+            />
+            <img
+              class="image"
+              src="images/grid-image5.jpg"
+              alt="Ancient architecture"
+            />
+          </div>
+          <div class="col g-3">
+            <img
+              class="image"
+              src="images/portfolio1.jpg"
+              alt="Ancient mountainside ruins "
+            />
+
+            <img
+              class="image"
+              src="images/portfolio11.jpg"
+              alt="stall selling colorful scarves and jewelry"
+            />
+            <img
+              class="image"
+              src="images/portfolio13.jpg"
+              alt="tropical island drone view"
+            />
+            <img
+              class="image"
+              src="images/grid-image2.jpg"
+              alt="flying birds"
+            />
+            <img
+              class="image"
+              src="images/portfolio10.jpg"
+              alt="tree silhouette"
+            />
+          </div>
         </div>
-        <div class="col g-3">
-          <img src="images/grid-image3.jpg" alt="Ornate mosque" />
-          <img src="images/portfolio6.jpg" alt="scenic boat trip" />
-          <img src="images/portfolio4.jpg" alt="View from mountainous town" />
-          <img src="images/portfolio12.jpg" alt="Monk within temple grounds" />
-          <img src="images/grid-image5.jpg" alt="Ancient architecture" />
-        </div>
-        <div class="col g-3">
-          <img src="images/portfolio1.jpg" alt="Ancient mountainside ruins " />
-          <img
-            src="images/portfolio11.jpg"
-            alt="stall selling colorful scarves and jewelry"
-          />
-          <img src="images/portfolio13.jpg" alt="tropical island drone view" />
-          <img src="images/grid-image2.jpg" alt="flying birds" />
-          <img src="images/portfolio10.jpg" alt="tree silhouette" />
+        <div class="popup-image">
+          <span>&times;</span>
+          <img src="images/grid-image6.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -143,5 +205,18 @@
         >
       </p>
     </footer>
+    <script>
+      document.querySelectorAll(".image").forEach((image) => {
+        image.onclick = () => {
+          document.querySelector(".popup-image").style.display = "block";
+          document.querySelector(".popup-image img").src =
+            image.getAttribute("src");
+        };
+      });
+
+      document.querySelector(".popup-image span").onclick = () => {
+        document.querySelector(".popup-image").style.display = "none";
+      };
+    </script>
   </body>
 </html>
