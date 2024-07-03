@@ -164,7 +164,7 @@ p {
 .footer-box {
   background-color: var(--accent-color);
   width: 100%;
-  margin-bottom: 30px;
+  margin: 35px 0;
 }
 .social-link {
   color: black;
