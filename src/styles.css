@@ -216,9 +216,6 @@ footer small a:hover {
 }
 
 @media (max-width: 1197px) {
-  footer {
-    display: none;
-  }
   .nav-button {
     display: none;
   }
